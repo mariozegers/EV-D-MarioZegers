@@ -1,5 +1,6 @@
 from retweeted import top10Retweeted
 from emited import top10Emited
+from topDays import top10Days
 
 def main():
     option = int(input(
@@ -9,7 +10,7 @@ def main():
     elif option == 1:
         top10Emited()
     elif option == 2:
-        pass
+        top10Days()
     elif option == 3:
         pass
     else:
