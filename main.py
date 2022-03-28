@@ -1,4 +1,5 @@
 from retweeted import top10Retweeted
+from emited import top10Emited
 
 def main():
     option = int(input(
@@ -6,7 +7,7 @@ def main():
     if option == 0:
         top10Retweeted()
     elif option == 1:
-        pass
+        top10Emited()
     elif option == 2:
         pass
     elif option == 3:

@@ -1,5 +1,5 @@
 import json
-## ver si ya está, si su statusesCount es mayor y reemplazarlo
+
 def top10Emited():
     listedFile = []
     top10 = []
@@ -26,6 +26,4 @@ def top10Emited():
     for p in top10:
         print(p["user"]["username"] + " - " + str(p["user"]["statusesCount"]))
     return top10
-
-top10Emited()
  
