@@ -19,5 +19,3 @@ def top10Hashtags():
     for hashtag in top10:
         print(hashtag[0] + ": " + str(hashtag[1]))
     return top10
-
-top10Hashtags()

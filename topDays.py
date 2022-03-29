@@ -18,4 +18,3 @@ def top10Days():
     for day in top10:
         print(day[0] + ": " + str(day[1]))
     return top10
-top10Days()

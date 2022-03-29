@@ -1,6 +1,7 @@
 from retweeted import top10Retweeted
 from emited import top10Emited
 from topDays import top10Days
+from hashtags import top10Hashtags
 
 def main():
     option = int(input(
@@ -12,7 +13,7 @@ def main():
     elif option == 2:
         top10Days()
     elif option == 3:
-        pass
+        top10Hashtags()
     else:
         print("No existe esta opción")
 
